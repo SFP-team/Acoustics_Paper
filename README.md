@@ -10,6 +10,7 @@ The repository is organized into two main directories: `data/` and `scripts/`.
 Contains the tabular datasets used for model training, cross-validation, and independent external validation.
 - **`01_training_cv_data.csv`**: The dataset was collected from 3,210 samples across 109 genotypes.
 - **`02_external_validation_data.xlsx`**: An independent dataset comprising sensory-labeled samples from 150 samples across 11 genotypes.
+- **`Note`**: Audio files can be accessed through this link - https://tinyurl.com/37879pyb.
 
 ### 2. `scripts/`
 Contains all code required to replicate the feature extraction, model training, and performance evaluation described in the manuscript. The scripts are split between R (Classical Machine Learning) and Python (Deep Learning and acoustic parameters).
