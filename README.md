@@ -16,7 +16,7 @@ Contains the tabular datasets used for model training, cross-validation, and ind
 Contains all code required to replicate the feature extraction, model training, and performance evaluation described in the manuscript. The scripts are split between R (Classical Machine Learning) and Python (Deep Learning and acoustic parameters).
 
 #### Feature Extraction (Audio to Data)
-- **`01a_feature_extraction_TDF_FDF_HDF.R`**: Processes raw .wav files and extracts the time domain, frequency domain, and Hilbert domain features.
+- **`01a_feature_extraction_TDF_FDF_HDF.R`**: Processes raw .wav audio files and extracts the time domain, frequency domain, and Hilbert domain features.
 - **`01b_feature_extraction_MFCCs.ipynb`**: Extracts Mel-frequency cepstral coefficients.
 - **`01c_feature_extraction_MelSDF.ipynb`**: Captures Mel spectrogram density features.
 - **`01d_feature_extraction_Spectrogram.ipynb`**: Converts raw acoustic waveforms into two-dimensional spectrograms.
